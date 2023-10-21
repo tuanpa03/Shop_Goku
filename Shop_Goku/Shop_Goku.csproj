@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Dashboard.aspx" />
     <Content Include="assets\UI_Admin\css\Admin.css" />
     <Content Include="assets\UI_Admin\css\animate.css\css\animate.css" />
     <Content Include="assets\UI_Admin\css\bootstrap\css\bootstrap.min.css" />
@@ -209,6 +210,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -272,6 +287,7 @@
     <Content Include="assets\UI_Admin\icon\themify-icons\fonts\themify.eot" />
     <Content Include="assets\UI_Admin\icon\themify-icons\fonts\themify.ttf" />
     <Content Include="assets\UI_Admin\icon\themify-icons\fonts\themify.woff" />
+    <Content Include="Admin\Admin.Master" />
     <None Include="packages.config" />
     <Content Include="User\User.Master" />
     <None Include="Web.Debug.config">
