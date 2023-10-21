@@ -1,0 +1,47 @@
+﻿.main-body .ti-pencil {
+    color: white;
+    background-color: blue;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.main-body .ti-pencil:hover {
+    box-shadow: 0 0 3px blue;
+}
+
+/* ----------- Css phần thông báo đẩy */
+.pcoded-inner-content .lblThongBao {
+    margin-left: 1.8rem;
+}
+
+/* ----------- Css phần Category */
+/* START - Css phần bảng dữ liệu */
+.main-body .table td {
+    vertical-align: middle !important;
+}
+.main-body .ti-trash {
+    color: white;
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.main-body .ti-trash:hover {
+    box-shadow: 0 0 3px red;
+}
+
+.main-body .hoatdong {
+    color: blue;
+}
+
+.main-body .khonghoatdong{
+    color: red;
+}
+/* END - Css phần bảng dữ liệu */
+
+/* ----------- Css phần Product */
+/* START - Css phần bảng dữ liệu */
+.main-body .soluong{
+    color: red;
+    font-weight: 600;
+}
+/* END - Css phần bảng dữ liệu */

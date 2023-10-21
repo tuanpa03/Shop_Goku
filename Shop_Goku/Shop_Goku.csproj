@@ -67,7 +67,145 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\UI_Admin\css\Admin.css" />
+    <Content Include="assets\UI_Admin\css\animate.css\css\animate.css" />
+    <Content Include="assets\UI_Admin\css\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\UI_Admin\css\jquery.mCustomScrollbar.css" />
+    <Content Include="assets\UI_Admin\css\morris.js\css\morris.css" />
+    <Content Include="assets\UI_Admin\css\style.css" />
+    <Content Include="assets\UI_Admin\datatables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="assets\UI_Admin\datatables\css\icon-font.min.css" />
+    <Content Include="assets\UI_Admin\datatables\css\jquery.dataTables.min.css" />
+    <Content Include="assets\UI_Admin\datatables\css\responsive.bootstrap4.min.css" />
+    <Content Include="assets\UI_Admin\datatables\css\responsive.dataTables.min.css" />
+    <Content Include="assets\UI_Admin\datatables\images\sort_asc.png" />
+    <Content Include="assets\UI_Admin\datatables\images\sort_asc_disabled.png" />
+    <Content Include="assets\UI_Admin\datatables\images\sort_both.png" />
+    <Content Include="assets\UI_Admin\datatables\images\sort_desc.png" />
+    <Content Include="assets\UI_Admin\datatables\images\sort_desc_disabled.png" />
+    <Content Include="assets\UI_Admin\datatables\js\buttons.bootstrap4.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\buttons.flash.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\buttons.html5.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\buttons.print.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\datatable-setting.js" />
+    <Content Include="assets\UI_Admin\datatables\js\dataTables.bootstrap4.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\dataTables.buttons.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\dataTables.responsive.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\jquery.dataTables.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\jszip.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\pdfmake.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\responsive.bootstrap4.min.js" />
+    <Content Include="assets\UI_Admin\datatables\js\vfs_fonts.js" />
+    <Content Include="assets\UI_Admin\icon\icofont\css\icofont.css" />
+    <Content Include="assets\UI_Admin\icon\icofont\fonts\icofont.svg" />
+    <Content Include="assets\UI_Admin\icon\themify-icons\fonts\themify.svg" />
+    <Content Include="assets\UI_Admin\icon\themify-icons\themify-icons.css" />
+    <Content Include="assets\UI_Admin\images\auth\logo-dark.png" />
+    <Content Include="assets\UI_Admin\images\auth\Logo-small-bottom.png" />
+    <Content Include="assets\UI_Admin\images\auth\logo.png" />
+    <Content Include="assets\UI_Admin\images\avatar-1.jpg" />
+    <Content Include="assets\UI_Admin\images\avatar-2.jpg" />
+    <Content Include="assets\UI_Admin\images\avatar-3.jpg" />
+    <Content Include="assets\UI_Admin\images\avatar-4.jpg" />
+    <Content Include="assets\UI_Admin\images\bg.jpg" />
+    <Content Include="assets\UI_Admin\images\favicon.ico" />
+    <Content Include="assets\UI_Admin\images\flags\ENGLISH.jpg" />
+    <Content Include="assets\UI_Admin\images\flags\FRANCE.jpg" />
+    <Content Include="assets\UI_Admin\images\flags\PORTO.jpg" />
+    <Content Include="assets\UI_Admin\images\flags\SPAIN.jpg" />
+    <Content Include="assets\UI_Admin\images\logo.png" />
+    <Content Include="assets\UI_Admin\images\mega-menu\01.jpg" />
+    <Content Include="assets\UI_Admin\images\mega-menu\02.jpg" />
+    <Content Include="assets\UI_Admin\images\mega-menu\03.jpg" />
+    <Content Include="assets\UI_Admin\images\mega-menu\04.jpg" />
+    <Content Include="assets\UI_Admin\images\mega-menu\05.jpg" />
+    <Content Include="assets\UI_Admin\images\mega-menu\06.jpg" />
+    <Content Include="assets\UI_Admin\images\pattern2.jpg" />
+    <Content Include="assets\UI_Admin\images\user.png" />
+    <Content Include="assets\UI_Admin\js\bootstrap-growl.min.js" />
+    <Content Include="assets\UI_Admin\js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\UI_Admin\js\classie.js" />
+    <Content Include="assets\UI_Admin\js\classie\classie.js" />
+    <Content Include="assets\UI_Admin\js\common-pages.js" />
+    <Content Include="assets\UI_Admin\js\demo-12.js" />
+    <Content Include="assets\UI_Admin\js\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="assets\UI_Admin\js\jquery-ui\jquery-ui.min.js" />
+    <Content Include="assets\UI_Admin\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="assets\UI_Admin\js\jquery.mousewheel.min.js" />
+    <Content Include="assets\UI_Admin\js\jquery\jquery.min.js" />
+    <Content Include="assets\UI_Admin\js\modernizr\css-scrollbars.js" />
+    <Content Include="assets\UI_Admin\js\modernizr\modernizr.js" />
+    <Content Include="assets\UI_Admin\js\morris.js\morris.js" />
+    <Content Include="assets\UI_Admin\js\pcoded.min.js" />
+    <Content Include="assets\UI_Admin\js\popper.js\popper.min.js" />
+    <Content Include="assets\UI_Admin\js\raphael\raphael.min.js" />
+    <Content Include="assets\UI_Admin\js\script.js" />
+    <Content Include="assets\UI_Admin\js\script.min.js" />
+    <Content Include="assets\UI_Admin\js\SmoothScroll.js" />
+    <Content Include="assets\UI_Admin\pages\accordion\accordion.js" />
+    <Content Include="assets\UI_Admin\pages\accordion\accordion.min.js" />
+    <Content Include="assets\UI_Admin\pages\chart\morris\morris-custom-chart.js" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\css\amchart.css" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\css\export.css" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\js\amcharts.js" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\js\custom-amchart.js" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\js\export.min.js" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\js\images\dragIconRoundBig.svg" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\js\images\dragIconRoundBigH.svg" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\js\light.js" />
+    <Content Include="assets\UI_Admin\pages\dashboard\amchart\js\serial.js" />
+    <Content Include="assets\UI_Admin\pages\dashboard\custom-dashboard.js" />
+    <Content Include="assets\UI_Admin\pages\google-maps\gmaps.min.js" />
+    <Content Include="assets\UI_Admin\pages\google-maps\jquery.gmaps.js" />
+    <Content Include="assets\UI_Admin\pages\icon-modal.js" />
+    <Content Include="assets\UI_Admin\pages\notification\notification.css" />
+    <Content Include="assets\UI_Admin\pages\notification\notification.js" />
+    <Content Include="assets\UI_Admin\pages\todo\todo.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\amcharts.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\amcharts.min.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\ammap.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\ammap.min.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\continentsLow.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\continentsLow.min.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\gauge.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\gauge.min.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\light.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\light.min.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\pie.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\pie.min.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\serial.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\serial.min.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\worldLow.js" />
+    <Content Include="assets\UI_Admin\pages\widget\amchart\worldLow.min.js" />
+    <Content Include="assets\UI_User\css\bootstrap.css" />
+    <Content Include="assets\UI_User\css\font-awesome.min.css" />
+    <Content Include="assets\UI_User\css\responsive.css" />
+    <Content Include="assets\UI_User\css\style.css" />
+    <Content Include="assets\UI_User\images\about-img.png" />
+    <Content Include="assets\UI_User\images\client1.jpg" />
+    <Content Include="assets\UI_User\images\client2.jpg" />
+    <Content Include="assets\UI_User\images\f1.png" />
+    <Content Include="assets\UI_User\images\f2.png" />
+    <Content Include="assets\UI_User\images\f3.png" />
+    <Content Include="assets\UI_User\images\f4.png" />
+    <Content Include="assets\UI_User\images\f5.png" />
+    <Content Include="assets\UI_User\images\f6.png" />
+    <Content Include="assets\UI_User\images\f7.png" />
+    <Content Include="assets\UI_User\images\f8.png" />
+    <Content Include="assets\UI_User\images\f9.png" />
+    <Content Include="assets\UI_User\images\favicon.png" />
+    <Content Include="assets\UI_User\images\hero-bg.jpg" />
+    <Content Include="assets\UI_User\images\o1.jpg" />
+    <Content Include="assets\UI_User\images\o2.jpg" />
+    <Content Include="assets\UI_User\js\bootstrap.js" />
+    <Content Include="assets\UI_User\js\custom.js" />
+    <Content Include="assets\UI_User\js\jquery-3.4.1.min.js" />
     <Content Include="Global.asax" />
+    <Content Include="User\About.aspx" />
+    <Content Include="User\Contact.aspx" />
+    <Content Include="User\Default.aspx" />
+    <Content Include="User\Menu.aspx" />
+    <Content Include="User\SliderUserControl.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -75,9 +213,67 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\SliderUserControl.ascx.cs">
+      <DependentUpon>SliderUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\SliderUserControl.ascx.designer.cs">
+      <DependentUpon>SliderUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="User\User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\UI_User\css\style.css.map" />
+    <Content Include="assets\UI_User\css\style.scss" />
+    <Content Include="assets\UI_User\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\UI_User\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\UI_User\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\UI_Admin\datatables\fonts\ionicons.ttf" />
+    <Content Include="assets\UI_Admin\datatables\fonts\ionicons.woff" />
+    <Content Include="assets\UI_Admin\datatables\fonts\themify.ttf" />
+    <Content Include="assets\UI_Admin\datatables\fonts\themify.woff" />
+    <Content Include="assets\UI_Admin\icon\icofont\fonts\icofont.eot" />
+    <Content Include="assets\UI_Admin\icon\icofont\fonts\icofont.ttf" />
+    <Content Include="assets\UI_Admin\icon\icofont\fonts\icofont.woff" />
+    <Content Include="assets\UI_Admin\icon\themify-icons\fonts\themify.eot" />
+    <Content Include="assets\UI_Admin\icon\themify-icons\fonts\themify.ttf" />
+    <Content Include="assets\UI_Admin\icon\themify-icons\fonts\themify.woff" />
     <None Include="packages.config" />
+    <Content Include="User\User.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
