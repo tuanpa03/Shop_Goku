@@ -28,9 +28,30 @@
     <link rel="stylesheet" type="text/css" href="../assets/UI_Admin/icon/themify-icons/themify-icons.css">
     <!-- ico font -->
     <link rel="stylesheet" type="text/css" href="../assets/UI_Admin/icon/icofont/css/icofont.css">
+
     <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="../assets/UI_Admin/css/Admin.css"/>  
     <link rel="stylesheet" type="text/css" href="../assets/UI_Admin/css/style.css">
     <link rel="stylesheet" type="text/css" href="../assets/UI_Admin/css/jquery.mCustomScrollbar.css">
+
+    <link rel="stylesheet" type="text/css" href="../assets/UI_Admin/datatables/css/dataTables.bootstrap4.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/UI_Admin/datatables/css/responsive.bootstrap4.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/UI_Admin/datatables/css/icon-font.min.css"/>
+
+    <script type="text/javascript" src="../assets/UI_Admin/js/jquery/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            var url = window.location.href
+
+            $("#navbarSupportedContent a").each(function () {
+                if (url == (this.href)) {
+                    $(this).closest("li").addClass("active");
+                }
+            })
+
+        });
+    </script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -227,7 +248,6 @@
     </form>
 
     <!-- Required Jquery -->
-    <script type="text/javascript" src="../assets/UI_Admin/js/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="../assets/UI_Admin/js/jquery-ui/jquery-ui.min.js"></script>
     <script type="text/javascript" src="../assets/UI_Admin/js/popper.js/popper.min.js"></script>
     <script type="text/javascript" src="../assets/UI_Admin/js/bootstrap/js/bootstrap.min.js"></script>
@@ -247,6 +267,7 @@
     <script src="../assets/UI_Admin/js/pcoded.min.js"></script>
     <script src="../assets/UI_Admin/js/demo-12.js"></script>
     <script src="../assets/UI_Admin/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
     <script>
         var $window = $(window);
         var nav = $('.fixed-button');
@@ -259,6 +280,10 @@
             }
         });
     </script>
+
+    <script src="../assets/UI_Admin/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../assets/UI_Admin/datatables/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../assets/UI_Admin/datatables/js/dataTables.responsive.min.js"></script>
 </body>
 </html>
 

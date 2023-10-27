@@ -14,7 +14,23 @@
 }
 
 /* ----------- Css phần Category */
+.main-body .page-wrapper{
+    padding: 0px !important;
+    background: aqua;
+}
 /* START - Css phần bảng dữ liệu */
+.main-body .name-category {
+    width: 45%;
+}
+
+.main-body .image-category img {
+    transition: all ease 0.3s;
+ }
+.main-body .image-category img:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
 .main-body .table td {
     vertical-align: middle !important;
 }
@@ -25,6 +41,10 @@
     border-radius: 5px;
 }
 
+
+.main-body .name-category span {
+    white-space: normal;
+}
 .main-body .ti-trash:hover {
     box-shadow: 0 0 3px red;
 }
