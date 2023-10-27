@@ -8,12 +8,12 @@
     box-shadow: 0 0 3px blue;
 }
 
-/* ----------- Css phần thông báo đẩy */
+/* ----------- Css phần thông báo đẩy ----------------------------------------------- */
 .pcoded-inner-content .lblThongBao {
     margin-left: 1.8rem;
 }
 
-/* ----------- Css phần Category */
+/* ----------- Css phần Category ----------------------------------------------- */
 .main-body .page-wrapper{
     padding: 0px !important;
     background: aqua;
@@ -58,9 +58,9 @@
 }
 /* END - Css phần bảng dữ liệu */
 
-/* ----------- Css phần Product */
+/* --------------------- Css phần Product ----------------------------------------------- */
 /* START - Css phần bảng dữ liệu */
-.main-body .soluong{
+.main-body .soluong {
     color: red;
     font-weight: 600;
 }

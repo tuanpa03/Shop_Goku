@@ -171,9 +171,9 @@
                                 </ul>
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
-                                        <a href="index.html">
-                                            <span class="pcoded-micon bg-success"><i class="ti-user"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Quản lý người dùng</span>
+                                        <a href="Product.aspx">
+                                            <span class="pcoded-micon bg-dark"><i class="ti-shopping-cart"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Quản lý sản phẩm</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
@@ -189,9 +189,9 @@
                                 </ul>
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
-                                        <a href="Product.aspx">
-                                            <span class="pcoded-micon bg-dark"><i class="ti-shopping-cart"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Quản lý sản phẩm</span>
+                                        <a href="index.html">
+                                            <span class="pcoded-micon bg-secondary"><i class="ti-face-smile"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Trạng thái sản phẩm</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
@@ -199,8 +199,8 @@
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
                                         <a href="index.html">
-                                            <span class="pcoded-micon bg-secondary"><i class="ti-face-smile"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Trạng thái sản phẩm</span>
+                                            <span class="pcoded-micon bg-success"><i class="ti-user"></i></span>
+                                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Quản lý người dùng</span>
                                             <span class="pcoded-mcaret"></span>
                                         </a>
                                     </li>
