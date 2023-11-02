@@ -1,0 +1,87 @@
+﻿/* --------------------- Css phần User - Registration.aspx ----------------------------------------------- */
+.book_section{
+    padding: 40px 0;
+}
+.heading_container {
+    border-bottom: 1px solid #999;
+    padding: 10px 0;
+}
+
+/*phan anh*/
+.book_section .image-logo {
+    width: inherit;
+    height: 260px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #999;
+}
+.book_section .image-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.book_section .image-user {
+    height: 260px;
+    width: inherit;
+}
+.book_section .image-user img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+    
+/*phan input*/
+.book_section .wrapper {
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+.book_section .wrapper-label {
+    height: inherit;
+    width: 25%;
+}
+.book_section .wrapper-label .text-label {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.book_section .wrapper-input {
+    height: inherit;
+    flex: 1;
+    position: relative;
+}
+.book_section .text-error {
+    position: absolute;
+    bottom: 5px;
+}
+/*phan button*/
+.book_section .btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book_section .btn_box {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.book_section .btn_box input {
+    width: 100%;
+    height: 40px;
+    background-color: #2929fb;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.book_section .btn_box input:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.book_section .kkkkk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

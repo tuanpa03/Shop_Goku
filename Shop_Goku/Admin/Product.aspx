@@ -155,7 +155,6 @@
 
                                         <div class="col-sm-6 col-md-5 col-lg-5">
                                                 <asp:Image ID="imgProduct" runat="server" CssClass="img-thumbnail" />
-                                           
                                         </div>
                                     </div>
 
