@@ -1,18 +1,23 @@
 ﻿/* --------------------- Css phần User - Registration.aspx ----------------------------------------------- */
 .book_section{
     padding: 40px 0;
+    min-height: 600px;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
 }
 .heading_container {
     border-bottom: 1px solid #999;
     padding: 10px 0;
 }
+.wrapper-image-logo {
+    border: 1px solid #999;
+}
 
 /*phan anh*/
 .book_section .image-logo {
     width: inherit;
-    height: 260px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #999;
+    height: 256px;
 }
 .book_section .image-logo img {
     width: 100%;
@@ -31,6 +36,12 @@
 }
     
 /*phan input*/
+.book_section .wrapper-container-input {
+    border: 1px solid #999;
+    padding: 15px 10px 0px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
 .book_section .wrapper {
     height: 80px;
     width: 100%;
@@ -38,7 +49,7 @@
 }
 .book_section .wrapper-label {
     height: inherit;
-    width: 25%;
+    width: 20%;
 }
 .book_section .wrapper-label .text-label {
     height: 50px;
@@ -60,6 +71,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 6px;
 }
 .book_section .btn_box {
     width: 100%;
@@ -84,4 +96,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* --------------------- Css phần User - Menu.aspx ----------------------------------------------- */
+.food_section .filters_menu{
+    margin: 20px 0 !important;
 }

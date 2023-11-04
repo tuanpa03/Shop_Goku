@@ -145,7 +145,10 @@
                                             <a href="#"><i class="ti-user"></i>Profile</a>
                                         </li>
                                         <li>
-                                            <a href="auth-normal-sign-in.html"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                                            <%--<a href="auth-normal-sign-in.html"><i class="ti-layout-sidebar-left"></i>Logout</a>--%>
+                                            <asp:LinkButton ID="lbLogout" runat="server" CausesValidation="false" OnClick="lbLogout_Click">
+                                                <i class="ti-layout-sidebar-left"></i>Đăng xuất
+                                            </asp:LinkButton>
                                         </li>
                                     </ul>
                                 </li>

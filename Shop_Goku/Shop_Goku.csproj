@@ -111,7 +111,6 @@
     <Content Include="assets\UI_Admin\images\avatar-2.jpg" />
     <Content Include="assets\UI_Admin\images\avatar-3.jpg" />
     <Content Include="assets\UI_Admin\images\avatar-4.jpg" />
-    <Content Include="assets\UI_Admin\images\bg.jpg" />
     <Content Include="assets\UI_Admin\images\favicon.ico" />
     <Content Include="assets\UI_Admin\images\flags\ENGLISH.jpg" />
     <Content Include="assets\UI_Admin\images\flags\FRANCE.jpg" />
@@ -206,10 +205,12 @@
     <Content Include="assets\UI_User\js\custom.js" />
     <Content Include="assets\UI_User\js\jquery-3.4.1.min.js" />
     <Content Include="Global.asax" />
+    <Content Include="Images\logo-goku.png" />
     <Content Include="Images\No_image.png" />
     <Content Include="User\About.aspx" />
     <Content Include="User\Contact.aspx" />
     <Content Include="User\Default.aspx" />
+    <Content Include="User\Login.aspx" />
     <Content Include="User\Menu.aspx" />
     <Content Include="User\Registration.aspx" />
     <Content Include="User\SliderUserControl.ascx" />
@@ -276,6 +277,13 @@
     </Compile>
     <Compile Include="User\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Menu.aspx.cs">
       <DependentUpon>Menu.aspx</DependentUpon>

@@ -22,7 +22,14 @@ namespace Shop_Goku.Admin
             if (!IsPostBack)
             {
                 Session["breadCrum"] = "Quản lý người dùng";
-                getUsers();
+                if (Session["admin"] == null)
+                {
+                    Response.Redirect("../User/Login.aspx");
+                }
+                else
+                {
+                    getUsers();
+                }
             }
             lblMsg.Visible = false;
         }

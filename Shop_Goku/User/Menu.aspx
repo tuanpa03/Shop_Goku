@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!-- food section -->
-    <section class="food_section layout_padding-bottom pt-5">
+    <section class="food_section layout_padding-bottom pt-3">
         <div class="container">
             <div class="heading_container heading_center">
                 <h2>Hãy nấp đầy dạ dày của bạn đi...</h2>

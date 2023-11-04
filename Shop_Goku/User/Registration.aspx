@@ -10,7 +10,7 @@
             }, seconds * 1000);
         }
     </script>
-    <script>
+<%--    <script>
         function ImagePreview(input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
@@ -21,7 +21,7 @@
                 reader.readAsDataURL(input.files[0]);
             }
         }
-    </script>
+    </script>--%>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="book_section">
@@ -36,7 +36,6 @@
                 <%------------- form left -------------------------------------------------------------------------------%>
                 <div class="col-md-8">
                     <div class="form_container">
-
                         <div class="wrapper">
                             <div class="wrapper-label">
                                 <label class="text-label">Họ và tên:</label>
@@ -55,10 +54,9 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="wrapper">
                             <div class="wrapper-label">
-                                <label class="text-label">Tên hiển thị:</label>
+                                <label class="text-label">User name:</label>
                             </div>
                             <div class="wrapper-input">
                                 <div class="text-input">
@@ -74,8 +72,7 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="wrapper">
+                        <%--<div class="wrapper">
                             <div class="wrapper-label">
                                 <label class="text-label">Email :</label>
                             </div>
@@ -99,7 +96,7 @@
                                         ValidationExpression="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" />
                                 </div>
                             </div>
-                        </div>
+                        </div>--%>
                         <div class="wrapper">
                             <div class="wrapper-label">
                                 <label class="text-label">Mật khẩu:</label>
@@ -118,7 +115,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="wrapper">
+                        <%--<div class="wrapper">
                             <div class="wrapper-label">
                                 <label class="text-label">Số điện thoại:</label>
                             </div>
@@ -142,8 +139,8 @@
                                         ValidationExpression="^[0-9]{10}$" />
                                 </div>
                             </div>
-                        </div>
-                        <div class="wrapper">
+                        </div>--%>
+                        <%--<div class="wrapper">
                             <div class="wrapper-label">
                                 <label class="text-label">Địa chỉ:</label>
                             </div>
@@ -160,7 +157,7 @@
                                         SetFocusOnError="true" />
                                 </div>
                             </div>
-                        </div>
+                        </div>--%>
                         <%--<div class="wrapper">
                             <div class="wrapper-label">
                                 <label class="text-label">Mã ZIP/PostCode:</label>
@@ -186,7 +183,7 @@
                                 </div>
                             </div>
                         </div>--%>
-                        <div class="wrapper">
+                        <%--<div class="wrapper">
                             <div class="wrapper-label">
                                 <label class="text-label">Ảnh đại diện:</label>
                             </div>
@@ -195,22 +192,11 @@
                                     <asp:FileUpload ID="fuUserImage" runat="server" CssClass="form-control" onchange="ImagePreview(this);" />
                                 </div>
                             </div>
-                        </div>
+                        </div>--%>
                     </div>
-                </div>
 
-                <%------------- form right -----------------------------------------------------------------------------------%>
-                <div class="col-md-4">
-                    <div class="image-logo">
-                        <img src="../assets/UI_Admin/images/bg.jpg" />
-                    </div>
-                    <div class="image-user">
-                        <asp:Image ID="imgUser" runat="server" CssClass="img-thumbnail" />
-                    </div>
-                </div>
-
-                <%------------- button register ------------------------------------------------------------------------------%>
-                <div class="col-md-8 btn-wrapper">
+                 <%------------- button register ------------------------------------------------------------------------------%>
+                <div class="btn-wrapper">
                     <div class="btn_box">
                         <asp:Button ID="btnRegister" runat="server"
                             Text="Đăng ký ngay"
@@ -225,6 +211,19 @@
                             Text="Bạn đã có tài khoản? <a href='Login.aspx' class='text-primary'>Đăng nhập ngay</a>" />
                     </div>
                 </div>
+                </div>
+
+                <%------------- form right -----------------------------------------------------------------------------------%>
+                <div class="col-md-4 wrapper-image-logo">
+                    <div class="image-logo">
+                        <img src="../Images/logo-goku.png" />
+                    </div>
+<%--                    <div class="image-user">
+                        <asp:Image ID="imgUser" runat="server" CssClass="img-thumbnail" />
+                    </div>--%>
+                </div>
+
+
             </div>
         </div>
     </section>

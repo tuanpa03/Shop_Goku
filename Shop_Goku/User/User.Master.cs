@@ -24,6 +24,28 @@ namespace Shop_Goku.User
                 // add control panel
                 pnlSliderUc.Controls.Add(sliderUserControl);
             }
+
+            if (Session["userId"] != null)
+            {
+                lbLoginOrLogout.Text = "Đăng xuất";
+            }
+            else
+            {
+                lbLoginOrLogout.Text = "Đăng nhập";
+            }
+        }
+
+        protected void lbLoginOrLogout_Click(object sender, EventArgs e)
+        {
+            if (Session["userId"] == null) // Kiểm tra nếu user chưa login thì chuyển đến trang login
+            {
+                Response.Redirect("Login.aspx");
+            }
+            else
+            {
+                Session.Abandon(); // Giữ lại User khi load lại trang
+                Response.Redirect("Login.aspx");
+            }
         }
     }
 }

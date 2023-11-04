@@ -46,34 +46,36 @@ namespace Shop_Goku.User
             cmd.Parameters.AddWithValue("@UserId", userId);
             cmd.Parameters.AddWithValue("@Name", txtName.Text.Trim());
             cmd.Parameters.AddWithValue("@Username", txtUsename.Text.Trim());
-            cmd.Parameters.AddWithValue("@Mobile", txtMobile.Text.Trim());
-            cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
-            cmd.Parameters.AddWithValue("@Address", txtAddress.Text.Trim());
+            //cmd.Parameters.AddWithValue("@Mobile", txtMobile.Text.Trim());
+            //cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
+            //cmd.Parameters.AddWithValue("@Address", txtAddress.Text.Trim());
             //cmd.Parameters.AddWithValue("@PostCode", txtPostCode.Text.Trim());
             cmd.Parameters.AddWithValue("@Password", txtPassword.Text.Trim());
-            if (fuUserImage.HasFile)
-            {
-                if (Utils.IsValidExtension(fuUserImage.FileName))
-                {
-                    Guid obj = Guid.NewGuid();
-                    fileExtention = Path.GetExtension(fuUserImage.FileName);
-                    imagePath = "Images/User/" + obj.ToString() + fileExtention;
-                    fuUserImage.PostedFile.SaveAs(Server.MapPath("~/Images/User/") + obj.ToString() + fileExtention);
-                    cmd.Parameters.AddWithValue("@ImageUrl", imagePath);
-                    isValidToExecute = true;
-                }
-                else
-                {
-                    lblMsg.Visible = true;
-                    lblMsg.Text = "Vui lòng chọn file có dạng .jpg, .png, .jpeg";
-                    lblMsg.CssClass = "alert alert-danger";
-                    isValidToExecute = false;
-                }
-            }
-            else
-            {
-                isValidToExecute = true;
-            }
+            //if (fuUserImage.HasFile)
+            //{
+            //    if (Utils.IsValidExtension(fuUserImage.FileName))
+            //    {
+            //        Guid obj = Guid.NewGuid();
+            //        fileExtention = Path.GetExtension(fuUserImage.FileName);
+            //        imagePath = "Images/User/" + obj.ToString() + fileExtention;
+            //        fuUserImage.PostedFile.SaveAs(Server.MapPath("~/Images/User/") + obj.ToString() + fileExtention);
+            //        cmd.Parameters.AddWithValue("@ImageUrl", imagePath);
+            //        isValidToExecute = true;
+            //    }
+            //    else
+            //    {
+            //        lblMsg.Visible = true;
+            //        lblMsg.Text = "Vui lòng chọn file có dạng .jpg, .png, .jpeg";
+            //        lblMsg.CssClass = "alert alert-danger";
+            //        isValidToExecute = false;
+            //    }
+            //}
+            //else
+            //{
+            //    isValidToExecute = true;
+            //}
+
+            isValidToExecute = true;
 
             if (isValidToExecute)
             {
@@ -133,13 +135,13 @@ namespace Shop_Goku.User
             {
                 txtName.Text = dt.Rows[0]["Name"].ToString();
                 txtUsename.Text = dt.Rows[0]["Username"].ToString();
-                txtMobile.Text = dt.Rows[0]["Mobile"].ToString();
-                txtEmail.Text = dt.Rows[0]["Email"].ToString();
-                txtAddress.Text = dt.Rows[0]["Address"].ToString();
-                //txtPostCode.Text = dt.Rows[0]["PostCode"].ToString();
-                imgUser.ImageUrl = string.IsNullOrEmpty(dt.Rows[0]["ImageUrl"].ToString()) 
-                    ? "../Images/No_image.png" 
-                    : "../" + dt.Rows[0]["ImageUrl"].ToString();
+                //txtMobile.Text = dt.Rows[0]["Mobile"].ToString();
+                //txtEmail.Text = dt.Rows[0]["Email"].ToString();
+                //txtAddress.Text = dt.Rows[0]["Address"].ToString();
+                ////txtPostCode.Text = dt.Rows[0]["PostCode"].ToString();
+                //imgUser.ImageUrl = string.IsNullOrEmpty(dt.Rows[0]["ImageUrl"].ToString()) 
+                //    ? "../Images/No_image.png" 
+                //    : "../" + dt.Rows[0]["ImageUrl"].ToString();
                 txtPassword.TextMode = TextBoxMode.SingleLine;
                 txtPassword.ReadOnly = true;
                 txtPassword.Text = dt.Rows[0]["Password"].ToString();
@@ -155,9 +157,9 @@ namespace Shop_Goku.User
         {
             txtName.Text = string.Empty;
             txtUsename.Text = string.Empty;
-            txtMobile.Text = string.Empty;
-            txtEmail.Text = string.Empty;
-            txtAddress.Text = string.Empty;
+            //txtMobile.Text = string.Empty;
+            //txtEmail.Text = string.Empty;
+            //txtAddress.Text = string.Empty;
             //txtPostCode.Text = string.Empty;
             txtPassword.Text = string.Empty;
         }
