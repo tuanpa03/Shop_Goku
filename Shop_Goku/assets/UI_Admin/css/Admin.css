@@ -8,16 +8,16 @@
     box-shadow: 0 0 3px blue;
 }
 
+.main-body .page-wrapper{
+    padding: 0px !important;
+}
+
 /* ----------- Css phần thông báo đẩy ----------------------------------------------- */
 .pcoded-inner-content .lblThongBao {
-    margin-left: 1.8rem;
+    margin-bottom: 1.6rem;
 }
 
 /* ----------- Css phần Category ----------------------------------------------- */
-.main-body .page-wrapper{
-    padding: 0px !important;
-    background: aqua;
-}
 /* START - Css phần bảng dữ liệu */
 .main-body .name-category {
     width: 45%;

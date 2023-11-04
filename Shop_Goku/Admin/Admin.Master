@@ -198,7 +198,7 @@
                                 </ul>
                                 <ul class="pcoded-item pcoded-left-item">
                                     <li>
-                                        <a href="index.html">
+                                        <a href="User.aspx">
                                             <span class="pcoded-micon bg-success"><i class="ti-user"></i></span>
                                             <span class="pcoded-mtext" data-i18n="nav.dash.main">Quản lý người dùng</span>
                                             <span class="pcoded-mcaret"></span>
